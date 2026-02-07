@@ -42,6 +42,30 @@ The execution ledger contains **119 live‑style trade records** across FX and M
 
 ---
 
+## Performance Monitoring Visuals
+
+### Strategy Equity Curve
+![Equity Curve](charts/Equity_Curve.png)
+
+### Drawdown Curve
+![Drawdown Curve](charts/Drawdown_Curve.png)
+
+### Drawdown Distribution (Trade-Level)
+![Drawdown Histogram](charts/Drawdown_Distribution.png)
+
+## Executive Desk Summary (Performance Audit)
+
+**Attn:** Risk Committee / Portfolio Manager  
+**Date:** February 2026
+
+- **Net P&L & Yield:** Total Net P&L of **-$1,465.00** on a gross volume of **68.33 lots**. Performance is currently in a *Technical Drawdown* phase due to negative payoff asymmetry.
+- **Execution Quality Leakage:** Realized slippage averaged **1.2 pips**. High‑slippage clusters (3.0+ pips) during the **"Asia‑Sess"** and **"Volatility"** tags accounted for approximately **$312.00 in avoidable friction costs**.
+- **Payoff Asymmetry (Critical Risk):** The desk is currently operating with a **0.38 Payoff Ratio** ($23.10 Avg Win / $60.72 Avg Loss). Despite a **57% Win Rate**, the strategy is mathematically unsustainable without immediate stop‑loss calibration.
+- **Concentration & Correlation:** **42% of total losses** were concentrated in two single‑day events (Oct 31 & Nov 10), indicating a **Revenge Aggregation bias** where size increased following initial losses in correlated JPY and CHF crosses.
+- **Strategy Efficiency:** **Trend** and **Momentum** tags outperformed **Scalping** by **22%** in win‑rate quality. **Heavy‑Scalp** remains the highest‑risk category, contributing to the largest single‑ticket drawdowns.
+- **Remediation Status:** Immediate transition to **Phase I Capital Preservation** is active. Hard lot‑size caps and liquidity‑filter protocols have been implemented to stabilize the equity curve.
+
+
 ## Repository Structure
 ```
 trade-lifecycle-reconciliation/
@@ -71,15 +95,4 @@ The goal of this project is to demonstrate **operations‑level trading infrastr
 
 ---
 
-## Executive Desk Summary (Performance Audit)
-
-**Attn:** Risk Committee / Portfolio Manager  
-**Date:** February 2026
-
-- **Net P&L & Yield:** Total Net P&L of **-$1,465.00** on a gross volume of **68.33 lots**. Performance is currently in a *Technical Drawdown* phase due to negative payoff asymmetry.
-- **Execution Quality Leakage:** Realized slippage averaged **1.2 pips**. High‑slippage clusters (3.0+ pips) during the **"Asia‑Sess"** and **"Volatility"** tags accounted for approximately **$312.00 in avoidable friction costs**.
-- **Payoff Asymmetry (Critical Risk):** The desk is currently operating with a **0.38 Payoff Ratio** ($23.10 Avg Win / $60.72 Avg Loss). Despite a **57% Win Rate**, the strategy is mathematically unsustainable without immediate stop‑loss calibration.
-- **Concentration & Correlation:** **42% of total losses** were concentrated in two single‑day events (Oct 31 & Nov 10), indicating a **Revenge Aggregation bias** where size increased following initial losses in correlated JPY and CHF crosses.
-- **Strategy Efficiency:** **Trend** and **Momentum** tags outperformed **Scalping** by **22%** in win‑rate quality. **Heavy‑Scalp** remains the highest‑risk category, contributing to the largest single‑ticket drawdowns.
-- **Remediation Status:** Immediate transition to **Phase I Capital Preservation** is active. Hard lot‑size caps and liquidity‑filter protocols have been implemented to stabilize the equity curve.
 
