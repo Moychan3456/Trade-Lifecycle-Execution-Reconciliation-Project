@@ -1,4 +1,5 @@
 # Trade Lifecycle & Execution Reconciliation Ledger Project
+A Python-based institutional trade lifecycle monitoring and execution reconciliation pipeline designed to replicate trading desk operational reporting and post-trade risk diagnostics workflows.
 
 ## Overview
 This project simulates the institutional **Trade Lifecycle Monitoring, Execution Reconciliation, and Risk Diagnostics workflow** used by trading operations and execution desks. The objective is to demonstrate operational proficiency in **trade capture validation, execution‑quality analysis, PnL reconciliation, slippage diagnostics, and performance attribution**.
