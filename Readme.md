@@ -45,13 +45,13 @@ The execution ledger contains **119 live‑style trade records** across FX and M
 ## Performance Monitoring Visuals
 
 ### Strategy Equity Curve
-![Equity Curve](charts/Equity_Curve.png)
+![Equity Curve](CHARTS/Equity_Curve.png)
 
 ### Drawdown Curve
-![Drawdown Curve](charts/Drawdown_Curve.png)
+![Drawdown Curve](CHARTS/Drawdown_Curve.png)
 
 ### Drawdown Distribution (Trade-Level)
-![Drawdown Histogram](charts/Drawdown_Distribution.png)
+![Drawdown Histogram](CHARTS/Drawdown_Distribution.png)
 
 ## Executive Desk Summary (Performance Audit)
 
