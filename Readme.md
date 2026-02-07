@@ -47,11 +47,11 @@ The execution ledger contains **119 live‑style trade records** across FX and M
 Trade-Lifecycle-Reconciliation-Project/
 │
 ├─ data/
-│   └─ Execution_Ledger.xlsx
+│   └─ Execution_Ledger.csv
 ├─ charts/
 │   ├─ Equity_Curve.png
 │   ├─ Drawdown_Curve.png
-│   └─ Daily_PnL_Histogram.png
+│   └─ Drawdown_Histogram.png
 ├─ report/
 │   └─ Trade_Lifecycle_Execution_Reconciliation_Report.pdf
 └─ README.md
