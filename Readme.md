@@ -51,7 +51,7 @@ The execution ledger contains **119 live‑style trade records** across FX and M
 ![Drawdown Curve](CHARTS/Drawdown_Curve.png)
 
 ### Drawdown Distribution (Trade-Level)
-![Drawdown Histogram](CHARTS/Drawdown_Distribution.png)
+![Drawdown Histogram](CHARTS/Drawdown_Histogram.png)
 
 ## Executive Desk Summary (Performance Audit)
 
