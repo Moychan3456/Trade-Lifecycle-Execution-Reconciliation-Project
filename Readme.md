@@ -44,17 +44,24 @@ The execution ledger contains **119 live‑style trade records** across FX and M
 
 ## Repository Structure
 ```
-Trade-Lifecycle-Reconciliation-Project/
+trade-lifecycle-reconciliation/
 │
-├─ data/
-│   └─ Execution_Ledger.csv
 ├─ charts/
 │   ├─ Equity_Curve.png
 │   ├─ Drawdown_Curve.png
-│   └─ Drawdown_Histogram.png
+│   └─ Drawdown_Distribution.png
+│
+├─ data/
+│   └─ Execution_Ledger.csv
+│
 ├─ report/
-│   └─ Trade_Lifecycle_Execution_Reconciliation_Report.pdf
+│   └─ Trade_Lifecycle_Performance_Report.pdf
+│
+├─ scripts/
+│   └─ trade_lifecycle.py
+│
 └─ README.md
+
 ```
 
 ---
