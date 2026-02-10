@@ -96,4 +96,5 @@ The goal of this project is to demonstrate **operations‑level trading infrastr
 
 ---
 
+*This project was built from real MT5 exports. Raw CSV is included. Script can be re-run in <2 minutes*
 
